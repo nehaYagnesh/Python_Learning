@@ -1,0 +1,36 @@
+Python Learning
+-----------------
+
+Vocabulary 
+1. Reserved words: You cannot use reserved words as variable names/identifiers
+
+False   class
+None    if
+True   
+and     del
+as      elif
+assert  else
+break	except
+
+2. Variable
+3. Constant : Numbers,letters and string where the value does not change
+4. Operator : ** : Power ; % : Remainder
+Operator Precedence : Parantheses, Power,Multiplication,Addition,Substraction
+									     Division
+
+Programming paragraphs 
+Python scripts -> .py
+
+* Types : type()
+* Type Conversion 
+
+* User Input : We can instruct Python to pause and read data from the user using the input() function
+
+E.g : name= input('Who are you?')
+print('Welcome',name) 
+
+*Comment : # Comment in Python
+
+* Function : def : Define function
+*break : Break the loop
+*continue: End the current iteration of the loop
