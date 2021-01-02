@@ -1,0 +1,29 @@
+""" Note all these SQL commands are to be executed in SQLite Browser 
+Handout : https://www.py4e.com/lectures3/Pythonlearn-15-Database-Handout.txt
+"""
+
+""" CRUD Operations """
+
+""" Create Table """
+# CREATE TABLE "Users" ("name" TEXT, "email" TEXT)
+
+""" Insert records in table """
+# INSERT INTO Users(name,email) VALUES ('Tom','tom@test.com');
+# INSERT INTO Users(name,email) VALUES ('Dan','dan@test.com');
+# INSERT INTO Users(name,email) VALUES ('Rick','rick@test.com');
+# INSERT INTO Users(name,email) VALUES ('Ted','ted@test.com');
+
+""" DELETE Record """
+# DELETE FROM Users WHERE email= 'ted@test.com'
+
+""" UPDATE """
+# UPDATE Users SET name='Jane' WHERE email='tom@test.com'
+
+""" Retrieving Records : SELECT """
+# SELECT * FROM Users WHERE Email = 'tom@test.com'
+
+""" Sorting with ORDER BY """
+# SELECT * FROM Users ORDER BY email
+# SELECT * FROM Users ORDER BY name DESC
+
+
